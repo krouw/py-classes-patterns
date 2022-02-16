@@ -1,5 +1,3 @@
-# pyright: reportGeneralTypeIssues=false
-
 import unittest
 
 from classes.value_objects.classes import ID
@@ -60,7 +58,7 @@ class TestVOClasses(unittest.TestCase):
 
     def test_raise_error_when_value_is_not_str(self):
         with self.assertRaises(TypeError):
-            _ = ID(value=1)
+            _ = ID(value=1)  # type: ignore
 
     def test_raise_error_when_value_is_an_empty_str(self):
         with self.assertRaises(ValueError):

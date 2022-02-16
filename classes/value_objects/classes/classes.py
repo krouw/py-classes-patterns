@@ -47,14 +47,16 @@ class ID:
 
     def __setattr__(self, name, value):
         """"""
-        msg = "'%s' has no attribute %s" % (self.__class__,
-                                            name)
+        msg = "'%s' has no attribute %s" % (
+            self.__class__,
+            name)
         raise AttributeError(msg)
 
     def __delattr__(self, __name: str) -> None:
         """"""
-        msg = "'%s' has no attribute %s" % (self.__class__,
-                                            __name)
+        msg = "'%s' has no attribute %s" % (
+            self.__class__,
+            __name)
         raise AttributeError(msg)
 
     @staticmethod

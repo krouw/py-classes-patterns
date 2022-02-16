@@ -60,7 +60,7 @@ class TestVOAttrs(unittest.TestCase):
 
     def test_raise_error_when_value_is_not_str(self):
         with self.assertRaises(TypeError):
-            _ = ID(value=None)
+            _ = ID(value=1)
 
     def test_raise_error_when_value_is_an_empty_str(self):
         with self.assertRaises(ValueError):
