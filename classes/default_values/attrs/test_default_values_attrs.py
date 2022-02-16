@@ -1,9 +1,9 @@
 import unittest
 
-from classes.default_values.dataclasses import Child
+from classes.default_values.attrs import Child
 
 
-class TestDefaultValuesDataclasses(unittest.TestCase):
+class TestDefaultValuesAttrs(unittest.TestCase):
     def test_child_instance(self):
         child = Child(a=1, b=1, c=2)
         assert isinstance(child, Child)

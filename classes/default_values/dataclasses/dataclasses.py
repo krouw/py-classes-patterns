@@ -26,6 +26,8 @@ class DefaultBase:
         self.__validate()
 
     def __validate(self):
+        if not isinstance(self.a, int):
+            raise TypeError(f"a must be int, not {type(self.a)}")
         if self.b == 0:
             raise ValueError("b cannot be 0")
 
