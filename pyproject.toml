@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "py-classes"
+version = "0.1.0"
+description = ""
+authors = ["krouw <felipe.andrez@live.cl>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^1.9.0"
+nanoid = "^2.0.0"
+attrs = "^21.4.0"
+cattrs = "^1.10.0"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
