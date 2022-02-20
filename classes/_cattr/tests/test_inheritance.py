@@ -2,7 +2,7 @@
 
 import unittest
 
-from classes._cattrs import Attenuation, NumberOfFilaments, ConnectorTechSpec, CableTechSpec
+from classes._cattr import Attenuation, NumberOfFilaments, ConnectorTechSpec, CableTechSpec
 
 
 class TestInheritanceConnectorCattrs(unittest.TestCase):

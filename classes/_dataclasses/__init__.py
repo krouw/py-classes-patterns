@@ -6,3 +6,5 @@ from .inheritance import (
     ConnectorTechSpec
 )
 from .default_values import Child
+from .composition import *
+from .union_types_casting import *

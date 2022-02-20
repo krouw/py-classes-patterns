@@ -15,3 +15,6 @@ from .inheritance_vo import (
 )
 from .default_values_vo import *
 from .default_values_inheritance import *
+from .composition_types import *
+from .composition_strict_types import *
+from .union_types_casting import *
